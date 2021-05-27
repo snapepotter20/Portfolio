@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootcamp Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootcamp style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">Sahil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Skills">My Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works">My Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container mt-4">
+    <section id="hero" class="d-flex justify-content-sm-center justify-content-md-evenly align-items-center flex-column-reverse gap-4 flex-md-row">
+      <!-- Hero -->
+        <div class="d-flex justify-content-sm-center align-items-center flex-column justify-content-md-start align-items-md-start" >
+         <h5>Hi!</h5>
+         <h1>I am Sahil Kumar </h1>
+         <p>Programmer || Developer</p>
+         <button class="btn btn-dark btn-sm">My cool resume </button>
+        </div>
+        <div class=" d-md-none w-25 h-25">
+          <img src="img1.jpg" alt="Sahil Kumar" class="w-100 h-100 rounded-circle shadow-lg">
+        </div>
+        <div class="d-none d-md-block w-25 h-25">
+          <img src="img1.jpg" alt="Sahil Kumar" class="w-75 h-75 rounded-circle shadow-lg">
+        </div>
+    </section>
+    <section  id="Skills" class=" mt-5 p-5 ">
+      <!-- My Skills -->
+      <h1 class="text-primary text-center pb-4">My Skill Set</h1>
+      <div class=" mt-2 d-md-none d-flex justify-content-evenly">
+        <i class="fab fa-html5 fa-6x" style="color:#f4470b"></i>
+        <i class="fab fa-css3-alt fa-6x text-primary"></i>
+        <i class="fab fa-bootstrap fa-6x " style="color:#730fef"></i>  
+        <i class="fab fa-js-square fa-6x " style="color:#ecca2f;"></i>
+      </div>
+      <div class=" mt-2 d-none d-md-flex justify-content-evenly">
+        <i class="fab fa-html5 fa-8x" style="color:#f4470b"></i>
+        <i class="fab fa-css3-alt fa-8x text-primary"></i>
+        <i class="fab fa-bootstrap fa-8x " style="color:#730fef"></i>  
+        <i class="fab fa-js-square fa-8x " style="color:#ecca2f;"></i>
+      </div>
+
+    </section>
+    <section id="works" class="mt-5  p-4 rounded">
+
+      <!-- My Works -->
+      <h1 class="text-black-60 text-center">My Works</h1>
+      <div class="d-flex flex-column flex-md-row">
+      
+          <div class="card mt-3 mb-2">
+              <img src="img2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Portfolio Website</h5>
+                  <p class="card-text">Build an amazing portfolio,resposive wesite using Bootstrap</p>
+                  <a href="#" class="btn btn-dark">View Source <i class="fab fa-github fa-3x" style="color:#f2cb3a"></i></a>
+              </div>
+          </div>
+          <div class="card mt-3 mb-2">
+              <img src="img3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Food Ordering Website</h5>
+                  <p class="card-text">Build an amazing food ordering resposive wesite using HTML and CSS</p>
+                  <a href="https://github.com/snapepotter20/Food-ordering-website" class="btn btn-dark">View Source <i class="fab fa-github fa-3x" style="color:#e34949"></i></a>
+              </div>
+          </div>
+          <div class="card mt-3 mb-2">
+              <img src="img4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Development Coding Website</h5>
+                  <p class="card-text">Build an amazing  wesite using HTML and CSS</p>
+                  <a href="https://github.com/snapepotter20/Development-Coding-Webpage" class="btn btn-dark">View Source <i class="fab fa-github fa-3x" style="color:#76f051"></i></a>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+
+  <section id="contact" class="mt-4 py-4">
+      <!-- Contact Me -->
+      <h1  id="heading" class="text-black-50 text-center">Contact Me</h1>
+    <div class="row">
+      <div class="col-sm col-md-8">
+        <form action="#">
+          <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" required class="form-control" id="exampleFormControlInput1"
+                  placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message Box   <i class="fas fa-envelope-open-text" style="color: #3f8c1e;"></i></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" required
+                  placeholder="Enter Your great message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn1 btn-dark">Contact Me</button>
+      </form>
+      </div>
+      
+      <div class=" col-sm col-md-4">
+        <div class="mt-3">
+          <h4><i class=" fas fa-at text-primary"></i>SahilKumar@gmail.com</h4>
+          <button type="button" class="btn btn-link">
+            <a href="https://github.com/snapepotter20"><i class="fab fa-github fa-3x"></i></a>
+          </button>
+        </div>  
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

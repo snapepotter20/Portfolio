@@ -1,0 +1,39 @@
+.navbar{
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar-brand{
+  color: rgb(253, 251, 251);
+  cursor: pointer;
+}
+#Skills{
+  background-color: black;
+  box-shadow:8px 8px 6px 5px grey ;
+  border-radius: 10px;
+}
+#hero{
+  font-family: 'Playfair Display', serif;
+}
+#works{
+  /* background-color: rgb(229, 207, 207); */
+  background-color: rgb(250, 122, 122);
+}
+#contact{
+  font-family: 'Playfair Display', serif;
+  background-color: rgb(229, 207, 207);
+  padding-left: 25px;
+  color: rgba(2, 2, 2, 0.493);
+}
+.container{
+  background-color: cornsilk;
+}
+.btn1{
+  border-radius: 8px;
+  font-size: 22px;
+}
+.btn1:hover{
+    background-color: rgb(41, 160, 41);
+}
+.btn:hover{
+    background-color: rgb(88, 92, 88);
+}
