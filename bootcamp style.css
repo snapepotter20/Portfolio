@@ -10,6 +10,7 @@
   background-color: black;
   box-shadow:8px 8px 6px 5px grey ;
   border-radius: 10px;
+  margin-top: 76px;
 }
 #hero{
   font-family: 'Playfair Display', serif;
@@ -17,6 +18,8 @@
 #works{
   /* background-color: rgb(229, 207, 207); */
   background-color: rgb(250, 122, 122);
+  margin-top: 76px;
+  margin-bottom: 76px;
 }
 #contact{
   font-family: 'Playfair Display', serif;
